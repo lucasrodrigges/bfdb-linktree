@@ -1,4 +1,12 @@
 const links = [{
+  link: 'https://api.whatsapp.com/send?phone=5579988738021&text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20consulta%20com%20a%20Dra.%20Hanna',
+  title: 'AGENDE SUA CONSULTA',
+  src: "./assets/icons/whatsapp.svg"
+}, {
+  link: 'https://youtube.com/channel/UCBb0BmkGhXnO_Flk-P_Kngg',
+  title: 'YOUTUBE',
+  src: "./assets/icons/youtube.svg"
+}, {
   link: 'https://borafalardebicho.com/seubichomaisfeliz/?utm_source=redes-sociais&utm_medium=organico',
   title: 'CURSO - SEU BICHO MAIS FELIZ',
   src: "./assets/icons/course.svg"
@@ -10,14 +18,6 @@ const links = [{
   link: 'https://borafalardebicho.com/nutricao-funcional-lista-de-espera/',
   title: 'LISTA DE ESPERA NUTRI FUNCIONAL',
   src: "./assets/icons/course.svg"
-}, {
-  link: 'https://youtube.com/channel/UCBb0BmkGhXnO_Flk-P_Kngg',
-  title: 'YOUTUBE',
-  src: "./assets/icons/youtube.svg"
-}, {
-  link: 'https://api.whatsapp.com/send?phone=5579988738021&text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20consulta%20com%20a%20Dra.%20Hanna',
-  title: 'AGENDE SUA CONSULTA',
-  src: "./assets/icons/whatsapp.svg"
 }];
 
 
