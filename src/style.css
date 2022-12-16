@@ -39,7 +39,7 @@ a {
   gap: 20px;
   font-family: 'Prompt', sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .general-container h3 {
@@ -104,6 +104,7 @@ a {
 @media screen and (max-width: 425px) {
   .general-container {
     font-size: 13px;
+    font-weight: 500;
   }
 
   #profile-img {
