@@ -35,7 +35,6 @@ body {
   height: 100vh;
   background: #ef5f20;
   background: linear-gradient(98deg, rgba(239, 95, 32, 1) 40%, rgba(252, 176, 69, 1) 99%);
-  /* margin-top: 100px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -122,16 +121,26 @@ body {
   .general-container {
     font-size: 13px;
     font-weight: 500;
-    margin-top: 15%;
-    margin-bottom: 35%;
+  }
+
+  .general-container h2 {
+    font-size: 1.2rem;
+  }
+
+  .general-container p {
+    font-size: 1rem;
+  }
+
+  .general-container ul a {
+    height: 45px;
   }
 
   #profile-img {
-    width: 180px;
+    width: 140px;
   }
 
   .icon {
-    width: 20px;
+    width: 17px;
   }
 
 }
