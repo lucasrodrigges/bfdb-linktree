@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;500&display=swap');
+
+* {
+  list-style: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+
+  35% {
+    opacity: 0.8;
+    transform: translateX(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.general-container {
+  width: 100vw;
+  height: 100vh;
+  background: #ef5f20;
+  background: linear-gradient(98deg, rgba(239, 95, 32, 1) 40%, rgba(252, 176, 69, 1) 99%);
+  /* margin-top: 100px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.general-container h3 {
+  animation: fadeIn 2s;
+}
+
+#profile-img {
+  width: 240px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  transition: 0.4s;
+  animation: fadeIn 2s;
+}
+
+#profile-img:hover {
+  transform: scale(1.04);
+  transition: 0.4s;
+}
+
+.general-container ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  animation: fadeIn 2s;
+  width: 90%;
+}
+
+.general-container ul a {
+  max-width: 500px;
+  width: 80%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: rgb(238, 80, 13);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: 0.4s;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  left: 12px;
+  width: 25px;
+  /* margin-right: 0; */
+}
+
+.general-container ul a:hover {
+  transform: scale(1.02);
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+  .general-container {
+    font-size: 15px;
+  }
+
+}
+
+
+@media screen and (max-width: 425px) {
+  .general-container {
+    font-size: 11px;
+  }
+
+  #profile-img {
+    width: 180px;
+  }
+
+  .icon {
+    width: 20px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  /* .general-container {
+    font-size: 10px;
+  } */
+
+  .icon {
+    display: none;
+  }
+}
