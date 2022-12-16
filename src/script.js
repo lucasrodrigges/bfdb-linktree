@@ -8,7 +8,7 @@ const links = [{
   src: "./assets/icons/course.svg"
 }, {
   link: 'https://borafalardebicho.com/nutricao-funcional-lista-de-espera/',
-  title: 'LISTA DE ESPERA NUTRIÇÃO FUNCIONAL',
+  title: 'LISTA DE ESPERA NUTRI FUNCIONAL',
   src: "./assets/icons/course.svg"
 }, {
   link: 'https://youtube.com/channel/UCBb0BmkGhXnO_Flk-P_Kngg',
